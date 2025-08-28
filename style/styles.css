@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(245, 255, 246, 1);
+  font-family: Arial, sans-serif;
+}
+
+.max-width {
+  max-width: 1800px;
+  margin: 40px auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+  font-weight: 800;
+  color: rgba(0, 103, 71, 1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.logo h1 {
+  font-size: 20px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon-group img {
+  width: 20px;
+}
+
+#copyCountBtn {
+  border-radius: 50px;
+  background-color: #00796b;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Hero Section */
+.hero-logo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Main Layout */
+.main-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.hero {
+  width: 100%;
+  height: 239px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 60px;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(1, 49, 34, 1) 0%,
+    rgba(0, 103, 71, 1) 50%,
+    rgba(1, 50, 35, 1) 100%
+  );
+  color: #fff;
+}
+.hero-logo {
+  height: 60px;
+  margin-bottom: 15px;
+}
+.hero h1 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+.hero p {
+  font-size: 1rem;
+  max-width: 800px;
+}
+
+/* Card Section */
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+.card .icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Card Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+/* Card Text */
+.card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.sub-text {
+  font-size: 14px !important;
+  color: #00796b;
+  margin: 2px 0;
+}
+
+/* Badge */
+
+.badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 20px;
+  background-color: #e0f7fa;
+  color: #00796b;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.copy-btn,
+.call-btn {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.copy-btn {
+  background-color: #f1f1f1;
+}
+
+.call-btn {
+  background-color: #00796b;
+  color: #fff;
+}
+
+.copy-btn:hover {
+  background-color: #ddd;
+}
+
+.call-btn:hover {
+  background-color: #004d40;
+}
+
+/* History Section */
+
+.history-section {
+  width: 400px;
+  height: 1118px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.history-header h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.history-header button {
+  padding: 6px 12px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.history-header button:hover {
+  background-color: #e63939;
+}
+
+#callHistory {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#callHistory li {
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+#clearHistory {
+  border-radius: 50px;
+  background-color: #00796b;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-section {
+    grid-template-columns: 1fr;
+  }
+
+  .history-section {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-section {
+    grid-template-columns: 1fr;
+  }
+  .navbar {
+    padding: 16px 20px;
+  }
+}

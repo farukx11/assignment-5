@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emergency Service Directory</title>
+
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+  <body class="h-[100vh] max-auto">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="logo" />
+        <!-- <span>Emergency Service</span> -->
+        <h1>
+          Emergency <br />
+          Service
+        </h1>
+      </div>
+      <div class="nav-right">
+        <div class="icon-group">
+          <span id="heartCount">0</span>
+          <span class="heart"><img src="./assets/heart.png" alt="" /></span>
+        </div>
+        <div class="icon-group">
+          <span id="coinCount">100</span>
+          <span class="coin"><img src="./assets/coin.png" alt="" /></span>
+        </div>
+        <div class="icon-group">
+          <button id="copyCountBtn"><span id="copyCount"> 0 </span>Copy</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <img class="hero-logo" src="./assets/logo.png" alt="" />
+
+      <h1>Emergency Service Directory</h1>
+      <p>
+        Government Emergency Services at Your Fingertip – A Project by
+        Government of the People's Republic of Bangladesh
+      </p>
+    </section>
+
+    <!-- Main Section -->
+    <main class="main-section max-width">
+      <!-- Cards -->
+      <div class="card-section">
+        <div class="card">
+          <div class="card-header">
+            <img class="icon" src="./assets/emergency.png" alt="" />
+            <span class="heart-btn">🤍</span>
+          </div>
+          <h3>National Emergency Number</h3>
+          <p class="sub-text">National Emergency</p>
+          <p>999</p>
+          <span class="badge">All</span>
+          <div class="btn-group">
+            <button class="copy-btn" data-number="999">📄 Copy</button>
+            <button
+              class="call-btn"
+              data-name="National Emergency Number"
+              data-number="999"
+            >
+              📞 Call
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img class="icon" src="./assets/police.png" alt="" />
+            <span class="heart-btn">🤍</span>
+          </div>
+          <h3>Police Helpline Number</h3>
+          <p class="sub-text">Police</p>
+          <p>999</p>
+          <span class="badge">Police</span>
+          <div class="btn-group">
+            <button class="copy-btn" data-number="999">📄 Copy</button>
+            <button
+              class="call-btn"
+              data-name="Police Helpline"
+              data-number="999"
+            >
+              📞 Call
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img class="icon" src="./assets/fire-service.png" alt="" />
+            <span class="heart-btn">🤍</span>
+          </div>
+          <h3>Fire Service Number</h3>
+          <p class="sub-text">Fire Service</p>
+          <p>999</p>
+          <span class="badge">Fire</span>
+          <div class="btn-group">
+            <button class="copy-btn" data-number="999">📄 Copy</button>
+            <button
+              class="call-btn"
+              data-name="Fire Service Number"
+              data-number="999"
+            >
+              📞 Call
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img class="icon" src="./assets/ambulance.png" alt="" />
+            <span class="heart-btn">🤍</span>
+          </div>
+          <h3>Ambulance Service</h3>
+          <p class="sub-text">Ambulance</p>
+          <p>1994-999999</p>
+          <span class="badge">Health</span>
+          <div class="btn-group">
+            <button class="copy-btn" data-number="1994-999999">📄 Copy</button>
+            <button
+              class="call-btn"
+              data-name="Ambulance Service"
+              data-number="1994-999999"
+            >
+              📞 Call
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img class="icon" src="./assets/women-child.png" alt="" />
+            <span class="heart-btn">🤍</span>
+          </div>
+          <h3>Women & Child Helpline</h3>
+          <p class="sub-text">Women & Child</p>
+          <p>109</p>
+          <span class="badge">Help</span>
+          <div class="btn-group">
+            <button class="copy-btn" data-number="109">📄 Copy</button>
+            <button
+              class="call-btn"
+              data-name="Women & Child Helpline"
+              data-number="109"
+            >
+              📞 Call
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img class="icon" src="./assets/orruption.png" alt="" />
+            <span class="heart-btn">🤍</span>
+          </div>
+          <h3>Anti-Corruption Helpline</h3>
+          <p class="sub-text">Anti-Corruption</p>
+          <p>106</p>
+          <span class="badge">Govt.</span>
+          <div class="btn-group">
+            <button class="copy-btn" data-number="106">📄 Copy</button>
+            <button
+              class="call-btn"
+              data-name="Anti-Corruption Helpline"
+              data-number="106"
+            >
+              📞 Call
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img class="icon" src="./assets/electricity.png" alt="" />
+            <span class="heart-btn">🤍</span>
+          </div>
+          <h3>Electricity Helpline</h3>
+          <p class="sub-text">Electricity</p>
+          <p>16216</p>
+          <span class="badge">Electricity</span>
+          <div class="btn-group">
+            <button class="copy-btn" data-number="16216">📄 Copy</button>
+            <button
+              class="call-btn"
+              data-name="Electricity Helpline"
+              data-number="16216"
+            >
+              📞 Call
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img class="icon" src="./assets/brac.png" alt="" />
+            <span class="heart-btn">🤍</span>
+          </div>
+          <h3>Brac Helpline</h3>
+          <p class="sub-text">Brac</p>
+          <p>16445</p>
+          <span class="badge">NGO</span>
+          <div class="btn-group">
+            <button class="copy-btn" data-number="16445">📄 Copy</button>
+            <button
+              class="call-btn"
+              data-name="Brac Helpline"
+              data-number="16445"
+            >
+              📞 Call
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img class="icon" src="./assets/Bangladesh-Railway.png" alt="" />
+            <span class="heart-btn">🤍</span>
+          </div>
+          <h3>Bangladesh Railway Helpline</h3>
+          <p class="sub-text">Bangladesh Railway</p>
+          <p>163</p>
+          <span class="badge">Travel</span>
+          <div class="btn-group">
+            <button class="copy-btn" data-number="163">📄 Copy</button>
+            <button
+              class="call-btn"
+              data-name="Bangladesh Railway Helpline"
+              data-number="163"
+            >
+              📞 Call
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- History Section -->
+      <div class="history-section">
+        <div class="history-header">
+          <h3>🕒 Call History</h3>
+          <button id="clearHistory">Clear</button>
+        </div>
+        <ul id="callHistory"></ul>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
